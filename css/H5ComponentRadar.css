@@ -1,0 +1,17 @@
+/*基本雷达图组件样式*/
+.h5_component_radar{
+	
+}
+.h5_component_radar canvas{
+	position: absolute;
+	top: 0;
+	left: 0;/*会执行分层，用到index*/
+	width: 100%;
+	height: 100%;
+}
+.h5_component_radar .text{
+	position: absolute;
+	font-size: 12px;
+	opacity: 0;
+	transition: all 1s;
+}
